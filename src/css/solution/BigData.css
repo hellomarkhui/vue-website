@@ -1,0 +1,33 @@
+.function {
+    width: 100%;
+    height: 437.5px;
+    margin-top: 43.75px;
+}
+
+.worth {
+    position: relative;
+    width: 862.5px;
+    height: 210px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 62.5px;
+}
+
+.worth-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.worth-txt {
+    position: absolute;
+    width: 267.5px;
+    top: 45px;
+    right: 107.5px;
+}
+
+.worth-txt > p {
+    margin-top: 17.5px;
+    font-size: 11.25px;
+    color: #666666;
+}

@@ -1,0 +1,305 @@
+.position {
+    margin-top: 27.5px;
+    background-color: #F3F3F3;
+}
+
+.query {
+    margin-top: 67.5px;
+    margin-bottom: 30px;
+}
+
+.query > div {
+    font-size: 0;
+}
+
+.query > div > span {
+    font-size: 12.5px;
+}
+
+.query >>> .el-input {
+    margin-right: 12.5px;
+}
+
+.query >>> .el-input__inner {
+    width: 122.5px;
+    height: 27.5px;
+    margin-left: 12.5px;
+    border: 1.25px solid #CCCCCC;
+    background-color: transparent;
+    border-radius: 0;
+    color: #333333;
+    font-size: 12.5px;
+    line-height: 27.5px;
+    padding: 0 15px;
+}
+
+.query >>> .p-key.el-input {
+    width: 162.5px;
+    margin-left: 37.5px;
+}
+
+.query >>> .p-key.el-input .el-input__inner {
+    width: 100%;
+    border: 1.25px solid #3D7EC1;
+}
+
+.query >>> .el-input__icon {
+    height: 0;
+    overflow: hidden;
+}
+
+.search-icon {
+    position: relative;
+    width: 30px;
+    height: 27.5px;
+    background-color: #3D7EC1;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.search-icon > i {
+    display: block;
+    position: absolute;
+    width: 13.2px;
+    height: 13.2px;
+    left: 50%;
+    top: 50%;
+    margin-left: -6.6px;
+    margin-top: -6.6px;
+    background: url(../assets/join/search-icon.png) no-repeat;
+    background-size: contain;
+}
+
+.col-1, .col-4 {
+    width: 30%;
+}
+
+.col-2, .col-3 {
+    width: 20%;
+}
+
+.col {
+    color: #333333;
+    padding-left: 30px;
+}
+
+.item >>> .el-collapse-item__arrow ,.title >>> .el-collapse-item__arrow {
+    font-size: 0;
+}
+
+.el-collapse-item.is-disabled .el-collapse-item__header {
+    cursor: inherit;
+}
+
+.title >>> .el-collapse-item__header {
+    height: 55px;
+    border-bottom: 1.25px solid #666666;
+    cursor: inherit;
+}
+
+.item >>> .el-collapse-item__header {
+    position: relative;
+    height: 55px;
+    border-bottom: 1.25px solid #CCCCCC;
+}
+
+.el-icon-arrow-down {
+    position: absolute;
+    right: 55px;
+}
+
+.item >>>  .el-collapse-item__content {
+    padding-bottom: 0;
+    border-bottom: 1.25px solid #CCCCCC;
+}
+
+.item-content {
+    background: #F1F6FC;
+    padding: 0 55px 15px 55px;
+}
+
+.item-content h4 {
+    color: #3D7EC1;
+    line-height: 50px;
+}
+
+.item-content p {
+    font-size: 11.25px;
+    color: #999999;
+    line-height: 25px;
+}
+
+.page-wrap {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    width: 768.75px;
+    height: 37.5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page >>> .el-pagination {
+    padding: 0;
+}
+
+.page >>> .el-pagination.is-background .el-pager li, 
+.page >>> .el-pager .more::before,
+.page >>> .el-pagination.is-background .btn-next, 
+ .page >>> .el-pagination.is-background .btn-prev,
+.page >>> .el-pagination button, 
+.page >>> .el-pagination span:not([class*=suffix]) {
+    margin: 0 5px;
+    padding: 0;
+    background-color: #CCCCCC;
+    color: #333333;
+    min-width: auto;
+    width: 27.5px;
+    height: 22.5px;
+    line-height: 22.5px;
+    font-size: 12.5px;
+    font-weight: 400;
+    border-radius: 0;
+}
+
+.page >>> .el-pagination.is-background .btn-next, .page >>> .el-pagination.is-background .btn-prev,
+.page >>> .el-pagination button, .page >>> .el-pagination span:not([class*=suffix]){
+    background-color: transparent;
+    width: auto;
+    padding: 0 2px;
+}
+
+.el-pagination__total {
+    margin-right: 10px;
+    font-weight: 400;
+    color: #606266;
+}
+
+.page >>> .el-pagination.is-background .el-pager li.active {
+    background-color: #3D7EC1;
+    color: #FFFFFF;
+} 
+
+body >>> .el-select-dropdown__item {
+    font-size: 12.5px;
+    padding: 0 20px;
+    color: #333333;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+body >>> .el-select-dropdown__item.hover, body >>> .el-select-dropdown__item:hover {
+    background-color: #CCCCCC;
+}
+
+.hightlights {
+    margin-top: 77.5px;
+}
+
+.hightlights img {
+    width: 397.5px;
+    height: 241.25px;    
+}
+
+.hightlights p {
+    font-size: 10px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.hightlights li {
+    margin-bottom: 20px;
+}
+
+.hightlights li:nth-child(odd) {
+    float: left;
+}
+
+.hightlights li:nth-child(even) {
+    float: right;
+}
+
+.hightlights li:nth-child(1) {
+    margin-top: -40px;
+}
+
+.clearfloat::after {
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.contact-title {
+    margin-bottom: 55px;
+}
+
+.contact {
+    margin-top: 40px;
+    margin-bottom: 52.5px;
+    position: relative;
+    height: 200px;
+}
+
+.contact img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-detail {
+    position: absolute;
+    width: 50%;
+    top: 40px;
+    right: 0;
+}
+
+.contact-detail h3 { 
+    font-size: 22.5px;
+    color: #333333;
+}
+
+.contact-detail p { 
+    font-size: 10px;
+    color: #333333;
+    line-height: 22.5px;
+    vertical-align: middle;
+}
+
+.color-light, p.open-map{
+    color: #999999;
+}
+
+.open-map {
+    margin-top: 30px;
+}
+
+.open-map a {
+    display: inline-block;
+    color: #999999;
+}
+
+.open-map a:hover {
+    color: #3D7EC1;
+}
+
+
+.map-icon {
+    display: inline-block;
+    width: 7.5px;
+    height: 10px;
+    margin-right: 7.5px;
+    background: url("../assets/join/flag.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}

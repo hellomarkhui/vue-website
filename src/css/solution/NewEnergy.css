@@ -1,0 +1,121 @@
+.window {
+    display: flex;
+    margin-top: 48.75px;
+}
+
+.window > img {
+    width: 420px;
+    height: 360px;
+}
+
+.window > p {
+    width: calc(100% - 420px);
+    padding: 70px;
+    text-align: center;
+    color: #343434;
+}
+
+.improve {
+    background: url("../../assets/solution/relateNet/example3-bg.png") no-repeat;
+    background-size: cover;
+    height: 442.5px;
+    min-height: 442.5px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.improve h2 {
+    margin-bottom: 35px;
+    font-size: 17.5px;
+    font-weight: bold;
+}
+
+.improve p {
+    width: 315px;    
+    color: #666666;
+    line-height: 18.75px;
+}
+
+.synergy-text {
+    margin-top: 17.5px;
+    text-align: center;  
+    color: #343434;
+}
+
+.synergys {
+    margin-top: 62.5px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.synergys .item {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+
+.synergys .item img {
+    width: 100%;
+}
+
+.synergys .item-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.item-text * {
+    color: #FFFFFF;
+}
+
+.item-text > h3{
+    font-size: 21.25px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.item-text > p{
+    width: 100%;
+    padding: 0 45px;
+    height: 0;
+    overflow: hidden;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+.item-text:hover {
+    background: rgba(0,0,0,.5);
+}
+
+.item-text:hover > h3 {
+    height: 0;
+}
+
+.item-text:hover > p {
+    height: auto;
+}
+
+.rebuild-img {
+    margin-top: 61.25px;
+    width: 100%;
+    height: auto;
+}
+
+.rebuild-text {
+    margin-top: 62.5px;
+    margin-bottom: 67.5px;
+    line-height: 22.5px;
+    text-align: center;  
+    color: #666666;
+}
